@@ -9,7 +9,6 @@
     <link href="css/reset.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />
 </head>
-
 <body>
 <div id="content">
 	<h1>Jorge Mudry</h1>
