@@ -13,7 +13,7 @@
 <div id="content">
 	<h1>Jorge Mudry</h1>
     <h4>Bienvenido!</h4>
-    <p>Soy <strong>Jorge Mudry</strong>, un desarrollador web de <?php $birthday = new DateTime('Aug 20th, 1978'); $today = new DateTime(); $age =  echo $birthday->diff($today)->y; ?> años que vive en <a href="http://goo.gl/maps/ZMwx" class="blank">Córdoba, Argentina</a>.</p>
+    <p>Soy <strong>Jorge Mudry</strong>, un desarrollador web de <?php $birthday = new DateTime('Aug 20th, 1978'); $today = new DateTime(); echo $birthday->diff($today)->y; ?> años que vive en <a href="http://goo.gl/maps/ZMwx" class="blank">Córdoba, Argentina</a>.</p>
     <p>Algunas de mis habilidades son: <strong>php</strong>, <strong>mysql</strong>, <strong>xhtml</strong>, <strong>css</strong>, <strong>javascript</strong>, <strong>codeigniter</strong> y <strong>wordpress</strong>.</p>
     <p>Podes saber un poco mas de mi siguiéndome en Twitter (@<a href="http://twitter.com/#!/jorgemudry" class="blank">JorgeMudry</a>) o visitando mi <a href="http://ar.linkedin.com/in/jorgemudry" class="blank">perfil en LikedIn</a>.</p>
     <p>Actualmente trabajo para <a href="http://www.olapic.com/" class="blank">Olapic</a>, una startup con sede en Nueva York que brinda a empresas y marcas una manera de recoger las fotos de sus fans para su uso en sus propios sitios web.</p>
